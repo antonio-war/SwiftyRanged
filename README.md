@@ -2,6 +2,9 @@
 <img width="1042" src="https://user-images.githubusercontent.com/59933379/228582850-7c24229b-feda-423a-8bce-10a5786b8766.png">
 </p>
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fantonio-war%2FSwiftyRanged%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/antonio-war/SwiftyRanged)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fantonio-war%2FSwiftyRanged%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/antonio-war/SwiftyRanged)
+
 SwiftyRanged is a simple and lightweight way for creating constricted range variables.
 You can use it with each Comparable type like Int, Float, Double, String.
 If you assign the property a greater or lesser value than the defined bounds, the latter is cut.
