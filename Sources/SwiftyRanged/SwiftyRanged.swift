@@ -15,6 +15,11 @@ public struct SwiftyRanged<Value: SwiftyRangeable>: Equatable {
         self.range = range
     }
     
+    public init(_ range: ClosedRange<Value>) {
+        self.value = range.lowerBound
+        self.range = range
+    }
+    
     public var wrappedValue: Value {
         get {
             return max(min(value, range.upperBound), range.lowerBound)

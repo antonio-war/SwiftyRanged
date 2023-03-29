@@ -17,6 +17,11 @@ public struct SwiftyOptionalRanged<Value: SwiftyRangeable>: Equatable {
         self.range = range
     }
     
+    public init(_ range: ClosedRange<Value>) {
+        self.value = nil
+        self.range = range
+    }
+    
     public var wrappedValue: Value? {
         get {
             if let value {
