@@ -1,4 +1,6 @@
-# SwiftyRanged
+<p align="center">
+<img width="1042" src="https://user-images.githubusercontent.com/59933379/228582850-7c24229b-feda-423a-8bce-10a5786b8766.png">
+</p>
 
 SwiftyRanged is a simple and lightweight way for creating constricted range variables.
 You can use it with each Comparable type like Int, Float, Double, String.
