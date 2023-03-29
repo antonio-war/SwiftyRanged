@@ -4,6 +4,7 @@
 
 SwiftyRanged is a simple and lightweight way for creating constricted range variables.
 You can use it with each Comparable type like Int, Float, Double, String.
+If you assign the property a greater or lesser value than the defined bounds, the latter is cut.
 
 - **Easy to use:** no configuration needed, SwiftyRanged is ready to go.
 - **Configurable:** you can define your custom range bounds.
